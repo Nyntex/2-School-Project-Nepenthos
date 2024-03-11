@@ -37,12 +37,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _GlitchStrength: 0.15779062
+    - _GlitchStrength: 0.10952345
     - _Lerp: 1
     - _NoiseAmount: 2
     - _SaturationAmount: 0
-    - _ScanLinesStrength: 0.88757396
-    - _VignetteScale: 0.09783018
+    - _ScanLinesStrength: 0.8852571
+    - _VignetteScale: 0.06790454
     m_Colors:
     - _test_color: {r: 0.55647576, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
