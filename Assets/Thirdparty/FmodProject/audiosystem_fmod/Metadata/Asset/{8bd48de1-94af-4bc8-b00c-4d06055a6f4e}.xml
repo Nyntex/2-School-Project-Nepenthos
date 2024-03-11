@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{8bd48de1-94af-4bc8-b00c-4d06055a6f4e}">
+		<property name="assetPath">
+			<value>OpenGameArt/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1ac3b581-9e8f-4392-bf4b-3bda284d4de6}</destination>
+		</relationship>
+	</object>
+</objects>

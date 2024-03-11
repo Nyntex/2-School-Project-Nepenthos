@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{82602273-3231-4e7a-8275-cd855c5ada67}">
+		<property name="assetPath">
+			<value>OpenGameArt/Blood_Dripping_Loop_00.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>15.307755102040817</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1ac3b581-9e8f-4392-bf4b-3bda284d4de6}</destination>
+		</relationship>
+	</object>
+</objects>

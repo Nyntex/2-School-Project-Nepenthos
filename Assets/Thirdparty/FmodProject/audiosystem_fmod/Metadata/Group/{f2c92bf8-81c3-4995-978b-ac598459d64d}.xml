@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{f2c92bf8-81c3-4995-978b-ac598459d64d}">
+		<property name="name">
+			<value>SFX</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7b805a14-6d8b-4080-8bf6-ed4644f6adc5}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ae572fb9-9743-47bc-9b7b-2be9a104925c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d57f79b1-c998-47bb-8576-87cf4f799c13}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7b805a14-6d8b-4080-8bf6-ed4644f6adc5}">
+		<relationship name="effects">
+			<destination>{e5d00f66-2643-4284-a85e-88519fbeccc4}</destination>
+			<destination>{a15bb947-87b7-4ec1-917a-4a4682b8c63f}</destination>
+			<destination>{34698466-8001-48b2-bfb7-3c8d617c2279}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ae572fb9-9743-47bc-9b7b-2be9a104925c}" />
+	<object class="MixerBusFader" id="{e5d00f66-2643-4284-a85e-88519fbeccc4}" />
+	<object class="SFXReverbEffect" id="{a15bb947-87b7-4ec1-917a-4a4682b8c63f}">
+		<property name="decayTime">
+			<value>1300</value>
+		</property>
+		<property name="earlyDelay">
+			<value>32</value>
+		</property>
+		<property name="lateDelay">
+			<value>21</value>
+		</property>
+		<property name="HFReference">
+			<value>7000</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>33</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>300</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-17</value>
+		</property>
+		<property name="highCut">
+			<value>5500</value>
+		</property>
+		<property name="wetLevel">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="MixerSend" id="{34698466-8001-48b2-bfb7-3c8d617c2279}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{a72375e1-ed2b-4e60-9830-a126460a48c9}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1794c6c9-2c27-4e0b-988c-059b196405a0}">
+		<property name="assetPath">
+			<value>OpenGameArt/Footsteps/step3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.37958333333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1ac3b581-9e8f-4392-bf4b-3bda284d4de6}</destination>
+		</relationship>
+	</object>
+</objects>

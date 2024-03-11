@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c947861f-51da-4f6b-bd7f-c91cd1c680ba}">
+		<property name="assetPath">
+			<value>OpenGameArt/Footsteps/shoes_breath.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>148.25941043083901</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1ac3b581-9e8f-4392-bf4b-3bda284d4de6}</destination>
+		</relationship>
+	</object>
+</objects>

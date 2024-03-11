@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{593b313f-b4f6-49d0-aeb2-4c3b8fae2bfd}">
+		<property name="name">
+			<value>EnemyAlertState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fb4e409b-8990-4dd8-89b5-00cf30bd89e9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f062f811-08c2-4f71-a951-1e823b7656c8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f062f811-08c2-4f71-a951-1e823b7656c8}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Roaming</value>
+			<value>Distracted</value>
+			<value>Aggressive</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

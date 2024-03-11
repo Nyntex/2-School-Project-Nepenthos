@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6397198221223500693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5566162760962413206}
+  - component: {fileID: 3758776114005553864}
+  m_Layer: 0
+  m_Name: AudioController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5566162760962413206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397198221223500693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.080397, y: 111.668945, z: 64.32089}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3758776114005553864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397198221223500693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65a25fd0d11410f41a51533aff2449da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioOcclusionOn: 1
+  occlusionSpreadPlayer: 0.75
+  occlusionSpreadSoundSource: 0.75
+  occlusionLayer:
+    serializedVersion: 2
+    m_Bits: 3392
+  masterVolume: 0.34
+  musicVolume: 0.34
+  ambienceVolume: 0.34
+  SFXVolume: 0.34
+  <music_ref>k__BackingField:
+    Guid:
+      Data1: 485169549
+      Data2: 1176412398
+      Data3: -1836685383
+      Data4: -771560084
+    Path: event:/Music/TestLevelMusic
+  <ambience_ref>k__BackingField:
+    Guid:
+      Data1: -17470514
+      Data2: 1318248153
+      Data3: 1395855000
+      Data4: -1000762095
+    Path: event:/Ambience/Ambience
+  <rain_ref>k__BackingField:
+    Guid:
+      Data1: -312436956
+      Data2: 1253573303
+      Data3: 1902725521
+      Data4: -671305275
+    Path: event:/Environment/Rain
+  <buttonClick_ref>k__BackingField:
+    Guid:
+      Data1: -699470542
+      Data2: 1101054930
+      Data3: 1299126683
+      Data4: 88380246
+    Path: event:/SFX/ButtonClick
+  <buttonHover_ref>k__BackingField:
+    Guid:
+      Data1: 2121875498
+      Data2: 1139610242
+      Data3: 1805298352
+      Data4: -1934164627
+    Path: event:/SFX/ButtonHover
+  <playerFootsteps_ref>k__BackingField:
+    Guid:
+      Data1: -287928448
+      Data2: 1212872500
+      Data3: -848165209
+      Data4: -138333190
+    Path: event:/SFX/Player/PlayerFootsteps
+  <playerDeath_ref>k__BackingField:
+    Guid:
+      Data1: -311210373
+      Data2: 1228261038
+      Data3: -101572187
+      Data4: -1177875113
+    Path: event:/SFX/Player/PlayerDeath
+  <playerCrouch_ref>k__BackingField:
+    Guid:
+      Data1: -1301635744
+      Data2: 1274963260
+      Data3: -1333951852
+      Data4: 1829462475
+    Path: event:/SFX/Player/Crouch
+  <distractionPickup_ref>k__BackingField:
+    Guid:
+      Data1: 535733970
+      Data2: 1196188698
+      Data3: 650832281
+      Data4: 1267627888
+    Path: event:/SFX/Player/DistractionPickup
+  <enemyAlert_ref>k__BackingField:
+    Guid:
+      Data1: 1416047981
+      Data2: 1084062645
+      Data3: 838076046
+      Data4: -1496300826
+    Path: event:/SFX/Enemy/EnemyAlert
+  <enemyNoise_ref>k__BackingField:
+    Guid:
+      Data1: 2055967243
+      Data2: 1102358080
+      Data3: -283429221
+      Data4: 1057771763
+    Path: event:/SFX/Enemy/EnemyNoise
+  <enemyDeath_ref>k__BackingField:
+    Guid:
+      Data1: -1250242646
+      Data2: 1242035445
+      Data3: -1898285141
+      Data4: 367845012
+    Path: event:/SFX/Enemy/EnemyDeath
+  <distractionEmission_ref>k__BackingField:
+    Guid:
+      Data1: -1956170797
+      Data2: 1152133810
+      Data3: -1447399750
+      Data4: -2139948735
+    Path: event:/SFX/DistractionEmission
+  <distractionImpact_ref>k__BackingField:
+    Guid:
+      Data1: 1849321149
+      Data2: 1284788428
+      Data3: -1551663477
+      Data4: -787882066
+    Path: event:/SFX/DistractionImpact
+  <exitOpen_ref>k__BackingField:
+    Guid:
+      Data1: -417937123
+      Data2: 1101481841
+      Data3: 1990386835
+      Data4: 1274689250
+    Path: event:/SFX/ExitOpen
+  <exitClosed_ref>k__BackingField:
+    Guid:
+      Data1: -1953288996
+      Data2: 1143171214
+      Data3: -1435484778
+      Data4: 1876166944
+    Path: event:/SFX/DoorLocked
+  <gameSaved_ref>k__BackingField:
+    Guid:
+      Data1: -432896757
+      Data2: 1284302043
+      Data3: -1947758161
+      Data4: -707945310
+    Path: event:/SFX/GameSaved
+  <takedown_ref>k__BackingField:
+    Guid:
+      Data1: 1477449183
+      Data2: 1101666063
+      Data3: -471373174
+      Data4: -1643089178
+    Path: event:/SFX/Takedown
